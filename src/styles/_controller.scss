@@ -1,0 +1,51 @@
+.Controller {
+  justify-content: center;
+  display: grid;
+
+  .time-box-input {
+    input {
+      width: 287px;
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid;
+      margin-bottom: 15px;
+      font-size: large;
+      text-align: center;
+    }
+    input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    .time-count {
+      width: 287px;
+      height: 50px;
+      border: 1px solid;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      font-size: 18px;
+      p {
+        color: cadetblue;
+      }
+    }
+  }
+  .time-box-controllers {
+    justify-content: space-between;
+    display: flex;
+    .play-btn {
+      background: white;
+      cursor: pointer;
+      width: 190px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+    .stop-btn {
+      background: white;
+      cursor: pointer;
+      width: 90px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+}

@@ -1,5 +1,10 @@
+//@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./layout";
+@import "./controller";
+
 .App {
   text-align: center;
+  display: grid;
 }
 
 .App-logo {

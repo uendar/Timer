@@ -1,0 +1,16 @@
+.Layout {
+  border: 1px solid;
+  flex: 1;
+  height: 30rem;
+  width: 20rem;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  margin: 20px;
+  background-color: lightblue;
+  .inner-color {
+    background-color: white;
+    display: grid;
+    height: 0%;
+  }
+}
